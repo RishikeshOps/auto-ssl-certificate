@@ -11,10 +11,10 @@ setup with nginx.
 - Add domains and email addresses to init.sh
 - Replace all occurrences of example.me with primary domain (the first one you added to init.sh) in data/nginx/nginx.conf
 
-4. Run the init script:
+3. Run the init script:
 
         sudo bash init.sh
 
-5. Run the server:
+4. Run the server:
 
         docker-compose up 
