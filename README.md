@@ -5,7 +5,7 @@
 Encrypt certificate for one or multiple domains in a docker-compose
 setup with nginx.
 
-1. Clone this repository: `git clone https://github.com/wmnnd/nginx-certbot.git .`
+1. Clone this repository: `https://github.com/RishikeshOps/auto-ssl-certificate.git`
 
 2. Modify configuration ( Add Your domain ):
 - Add domains and email addresses to init.sh
