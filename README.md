@@ -24,9 +24,10 @@ If you're running a web application on Docker and want to secure it with SSL, Le
 
 - When you run this script, you will be prompted twice to select yes or no. make sure you select correctly. (YES Recommended )
 
+###### After this you can Automate deployment by Github-Actions. Just you need to add pipline in your repo where your all code is stored and push changes in your github. You can refer this [Pipeline for building & deploying your application](https://github.com/RishikeshOps/Node-CICD-TODO/blob/master/.github/workflows/deploy.yml)
 
 ----------
 
-In conclusion, this guide provides a complete solution for securing your domains with Let's Encrypt certificates in a Docker-Compose setup with Nginx. By following the steps outlined in this guide, you can ensure that your domains are secure and your SSL certificates are renewed automatically.
+In conclusion, this guide provides a complete solution for securing your domains with Let's Encrypt certificates in a Docker-Compose setup with Nginx. By following the steps outlined in this guide, you can ensure that your domains are secure and your SSL certificates are renewed automatically and continues deployment of aapplication.
 
 Don't forget to star the repository if you found this useful :)
