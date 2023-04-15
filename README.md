@@ -22,6 +22,11 @@ If you're running a web application on Docker and want to secure it with SSL, Le
 
         sudo bash init.sh
 
+- When you run this script, you will be prompted twice to select yes or no. make sure you select correctly. (YES Recommended )
+
+
+----------
+
 In conclusion, this guide provides a complete solution for securing your domains with Let's Encrypt certificates in a Docker-Compose setup with Nginx. By following the steps outlined in this guide, you can ensure that your domains are secure and your SSL certificates are renewed automatically.
 
 Don't forget to star the repository if you found this useful :)
